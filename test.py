@@ -1,0 +1,3 @@
+import fishbot
+
+fishbot.createModel()
