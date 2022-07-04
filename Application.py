@@ -20,9 +20,8 @@ isPlaying = False
 class Application(Frame):
     def square(self):
         messagebox.showinfo("Zaznaczenie kwadratu",
-                            "Aby przystąpić do łowienia\nPierdolnij pół litra\nPotem za pomocą środkowego przycisku myszy"
-                            "\nZaznacz lewy górny róg dymku\nA potem prawy dolny\nNajlepiej aby to była sama cyferka"
-                            "\nPozdrawiam")
+                            "Aby przystąpić do łowienia\nZa pomocą środkowego przycisku myszy"
+                            "\nZaznacz lewy górny róg dymku\nA potem prawy dolny\nNajlepiej aby to była sama cyferka")
         with mouse.Listener(on_click=on_click) as listener:
             listener.join()
 
